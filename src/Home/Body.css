@@ -1,0 +1,24 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.uuu{
+  background-image: url('./wallpaper.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+}
+
+.style-content{
+     font-size: 3rem;
+     color: rgb(28, 121, 138);
+     text-transform: uppercase;
+     line-height: 5rem;
+     font-weight: 600;
+}

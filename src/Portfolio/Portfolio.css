@@ -1,0 +1,22 @@
+.Portfolio-header{
+    background-image: url('./project-image.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; 
+
+}
+
+.portfolio-div-text{
+    color: rgb(70, 2, 2);
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3rem;
+}
+.portfolio-div-text-2{
+    color: brown;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2rem;
+
+}

@@ -1,0 +1,20 @@
+html, body{
+    height: 100%;
+    margin: 0px;
+}
+* {
+  box-sizing: border-box;
+}
+
+.container-div-homepage{
+     background-image: url('./try.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+  
+  /* Full height */
+  height: 100vh; 
+    
+}
+

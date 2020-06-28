@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+.left-blog{
+    background-image: url('./photo.jpg');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: rgba(255, 249, 192, 1);  */
+    transition: 1s;
+    height: 100vh;
+}
+.left-blog:hover{
+   transform: scale(1.1);
+    opacity: 0.6;
+	-webkit-transition: opacity 1s, text-shadow 1s;
+	transition: opacity 1s, text-shadow 1s;
+	text-shadow: 0 0 3px #000000;
+	color: rgba(0, 0, 0, 1)!important;
+}
+.right-portfolio{
+    background-image: url('./portfoliobackground.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 1s;
+    /* background-color: rgb(0,0,0,1); */
+    height: 100vh;
+}
+.right-portfolio:hover{
+     transform: scale(1.1);
+     opacity: 0.6;
+	-webkit-transition: opacity 1s, text-shadow 1s;
+	transition: opacity 1s, text-shadow 1s;
+	text-shadow: 0 0 3px #000000;
+	color: rgba(0, 0, 0, 1)!important;
+}
+.right-portfolio .right-overlay:hover{
+   background-color: transparent;
+
+}
+.left-blog-h1{
+    font-family: 'Rye', cursive;
+    font-size: 5rem;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    color: black;
+}
+.right-portfolio-h1{
+    font-family: 'Rye', cursive;
+    font-size: 5rem;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    color: black;
+}
